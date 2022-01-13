@@ -2,3 +2,25 @@ body {
     background-color: white;
 }
 
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-footer {
+    float: left;
+}
+
+.media {
+    float: right;
+    text-align: center;
+}
+
+footer {
+    height: 100px;
+    
+}
+
+.container {
+    height: 100px;
+    vertical-align: bottom;
+}
