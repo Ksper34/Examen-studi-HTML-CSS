@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 html {
@@ -15,12 +16,37 @@ html {
     text-align: center;
 }
 
-footer {
-    height: 100px;
-    
+
+.centered-container {
+    height: 100%;
 }
 
 .container {
     height: 100px;
     vertical-align: bottom;
 }
+
+.formulaire {
+    align-items: center;
+}
+
+.mod-form {
+    padding-top: 120px;
+}
+
+.col-12.col-md-7.col-lg-5 {
+    border: 1px black;
+    padding: 10px;
+    background-color: #b6b6b6d2;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.text-justify {
+    margin-left: 5px;
+}
+
+#contact-form {
+    color: blue;
+}
+
