@@ -31,7 +31,7 @@ html {
 }
 
 .mod-form {
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .col-12.col-md-7.col-lg-5 {
@@ -50,3 +50,112 @@ html {
     color: blue;
 }
 
+.wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+@media  screen and  (max-width: 800px) {
+    .wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 20px;
+        margin-bottom: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .esport-logo {
+        width: 30px;
+    }
+    
+}
+
+.wrapper > div{
+    background-color: rgb(253, 249, 10);
+    border: 2px black;
+    box-sizing: border-box;
+    text-align:justify;
+    padding: 15px;
+    box-shadow: -5px 5px rgb(0, 0, 0);
+}
+
+.title-calendrier {
+    float: center;
+    margin-top: 170px;
+    text-align: center;
+}
+
+
+
+.game-logo {
+    height: 30px;
+    float: left;
+    
+}
+
+.esport-logo {
+    width: 80px;
+    bottom: 0;
+    
+    
+}
+
+.loop-match__header img {
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: white;
+}
+
+.loop-match {
+    padding: 24px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.loop-match__details {
+    right: 0;
+    text-align: right;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: right;
+}
+
+.loop-match__name {
+    display: inline;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 5px;
+    vertical-align: middle;
+    font-family: barlowcondensed,sans-serif;
+    font-weight: 550;
+}
+
+.date.h6 {
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    color: black;
+}
+
+.time.h2 {
+    font-size: 50px;
+    color: black;
+    font-weight: 1000;
+}
+
+.loop-match__result {
+    bottom: 0;
+    left: 0;
+    font-size: 60px;
+    line-height: 1;
+}
