@@ -1,10 +1,5 @@
 body {
     background-color: white;
-    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
-html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo-footer {
@@ -54,7 +49,6 @@ html {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: repeat(4, 1fr);
     grid-gap: 40px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -80,7 +74,7 @@ html {
 }
 
 .wrapper > div{
-    background-color: rgb(253, 249, 10);
+    background-color: #ffde59;
     border: 2px black;
     box-sizing: border-box;
     text-align:justify;
@@ -94,19 +88,14 @@ html {
     text-align: center;
 }
 
-
-
 .game-logo {
     height: 30px;
-    float: left;
-    
+    float: left;    
 }
 
 .esport-logo {
     width: 80px;
-    bottom: 0;
-    
-    
+    bottom: 0;  
 }
 
 .loop-match__header img {
@@ -136,7 +125,6 @@ html {
     font-size: 16px;
     line-height: 5px;
     vertical-align: middle;
-    font-family: barlowcondensed,sans-serif;
     font-weight: 550;
 }
 
@@ -159,3 +147,176 @@ html {
     font-size: 60px;
     line-height: 1;
 }
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 700px !important;
+  }
+
+.carousel{
+    margin-top: 115px;
+}
+
+@media  screen and (max-width: 397px) {
+    .carousel {
+        margin-top: 156px;
+    }
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.team-logo  { 
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: absolute;
+    width: 70%;
+}
+
+.block--teams__list>* {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.bloc {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 10em;
+    height: 10em;
+    border-radius: 99em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bloc:hover {
+      filter: drop-shadow(-5px 5px 4px black);
+  }
+
+  .block--teams__list {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section--hl {
+    background-color: #ffde59;
+    margin-bottom: 25px;
+}
+
+.block--teams__list-wrapper {
+    margin: auto;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 600px) {
+    .block--teams__list {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+}  
+    
+@media screen and (max-width: 400px) {
+    .block--teams__list {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 100px;
+        margin-right: 20px;
+    }
+}  
+
+.block--content-classic {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+
+.propos {
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 1000;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.riot {
+    float: right;
+    width: 550px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .riot {
+        float:inline-start ;
+        width: 300px;
+        
+    }   
+}
+
+.texte-propos {
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .texte-propos {
+        margin: auto;
+    }
+}
+
+.team {
+    margin-left: 30px;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.rejoindre {
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 1000;
+}
+
+.second-main {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.join-a {
+    color: #002c54;
+    font-style: bold;
+    outline: none;
+    font-weight: 700;
+}
+
+.btn-info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
